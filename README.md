@@ -1,3 +1,5 @@
+<p>Aphiwe Njabulo Ndlovu ST10449855 https://github.com/ST10449855/HydrationHaveApp</p>
+
 <div align="center">
   <h1 align="center">Hydration Haven App</h1>
   <h2>Introduction</h2>
