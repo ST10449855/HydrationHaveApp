@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity">
+
+
+    <!-- Input Fields -->
+    <EditText
+        android:id="@+id/etDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/etMorningTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Morning Screen Time (Minutes)" />
+
+    <EditText
+        android:id="@+id/etAfternoonTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Afternoon Screen Time (Minutes)" />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Notes" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Data" />
+
+    <Button
+        android:id="@+id/btnViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnClearData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

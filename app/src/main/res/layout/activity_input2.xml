@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ActivityInput">
+
+    <TextView
+        android:id="@+id/textViewDay"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="Day"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Day"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/textViewMorningScreenTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning Intake in Liters"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextMorningScreenTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter MORNING Intake in Liters Time"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textViewAfternoonScreenTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afternoon Intake in Liters"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextAfternoonScreenTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Afternoon Intake Time"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/textViewActivityNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hydration Notes"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextActivityNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hydration Notes"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonViewDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Details"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

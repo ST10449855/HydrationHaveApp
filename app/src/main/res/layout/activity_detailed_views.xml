@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetailedViewsActivity"
+    >
+
+    <TextView
+        android:id="@+id/textViewDayDetail"
+        android:layout_width="399dp"
+        android:layout_height="63dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMorningScreenTimeDetail"
+        android:layout_width="401dp"
+        android:layout_height="81dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewAfternoonScreenTimeDetail"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewActivityNotesDetail"
+        android:layout_width="395dp"
+        android:layout_height="82dp"
+        android:text="TextView" />
+</LinearLayout>
