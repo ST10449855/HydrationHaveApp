@@ -1,8 +1,7 @@
 <div align="center">
   <h1 align="center">Hydration Haven App</h1>
   <h2>Introduction</h2>
-  <p>Welcome to an application that keeps track of how much water you drink in a day.
-  This app keeps track of water consumed in a day</p>
+  <p>Welcome to an application that keeps track of how much water you drink in a day.</p>
   <h3>The purpose of the App</h3>
   <p>The app was created to for students to drink water instead of caffeine. Student tend to consume a lot of caffeine which is harmful to the body causing very dangerious side effects. 
   I decide to come up with a solution to for this problem, designing and programmming an application that will help students drink more water and be fun while at it.
