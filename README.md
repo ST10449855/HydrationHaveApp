@@ -17,5 +17,6 @@ The third page show the full details of how the results of drinking a secnifican
   <p>Created a power point presentation to showcase the application.
 [Hydration Haven App.pptx](https://github.com/user-attachments/files/16330823/Hydration.Haven.App.pptx)</p> 
 <h4>Conclusion</h4>
-<p></p>
+<p>This app will help so much student lives making them more healthy and enegertic so they can acheive more. 
+It is a step closer to much better society.</p>
 
